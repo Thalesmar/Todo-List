@@ -17,7 +17,7 @@ A simple, clean and intuitive todo list application that helps you organize your
 
 [Live Demo](https://thalesmar.github.io/Todo-List/) *(Replace with your actual demo link)*
 
-## Screenshots ![image]()
+## Screenshots ![image](https://github.com/Thalesmar/Todo-List/blob/e1f5884c04eb2bf7435b3b8d8058506f3fd6c545/image.png)
 
 *Add screenshots of your application here*
 
