@@ -1,0 +1,110 @@
+        body {
+            margin: 0;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, rgb(89, 111, 177), rgb(255, 0, 64));
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        /* Title */
+        .text-area {
+            font-size: 2.2em;
+            color: white;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        /* Input container */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+
+        /* Input box */
+        #input {
+            border-radius: 50px;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            outline: none;
+            width: 250px;
+        }
+
+        /* Add task button */
+        #taskBtn {
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 1rem;
+            border: none;
+            background-color: hsl(30, 100%, 50%);
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        #taskBtn:hover {
+           background-color: hsl(30, 100%, 60%);
+        }
+         
+        #taskBtn:active {
+           background-color: hsl(30, 100%, 70%);
+        }
+
+        /* Task list container */
+        .list {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Task list items */
+        .task-style {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255,255,255,0.15);
+            padding: 12px 20px;
+            margin: 10px auto;
+            border-radius: 10px;
+            width: 300px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 500;
+            list-style: none;
+            transition: transform 0.2s ease;
+        }
+
+        .task-style:hover {
+            transform: scale(1.02);
+        }
+
+        /* Delete button */
+        .delete-btn {
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .delete-btn:hover {
+            color: #ff8099;
+        }
+
+        /* Remove default ul padding */
+        #taskList {
+            padding: 0;
+            margin: 0;
+        }
